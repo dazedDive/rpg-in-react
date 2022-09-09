@@ -1,0 +1,16 @@
+    $primary: #a28748;
+  $secondary: #b77cae;
+  $success: #476e5c;
+  $info: #5d5435;
+  $warning: #856183;
+  $danger: #7e1b24;
+  $light: #c4c6c8;
+  $dark: #2a2a2b;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+:root{
+    --bs-btn-font-family :'VT323', monospace;
+    --bs-body-font-family:'VT323', monospace;
+}
