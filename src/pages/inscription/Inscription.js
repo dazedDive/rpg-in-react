@@ -10,6 +10,7 @@ const Inscription = () =>{
 
             </div>
             <div className="col-0 col-md-4">
+                <img src="/assets/pieuvre.png"  class="img-fluid " alt="imagesInscription"/>
                 <h2 className="text-center text-white mt-5"></h2>
                 <h2 className="text-center text-white mt-5">Formulaire d'inscription :</h2>
                 

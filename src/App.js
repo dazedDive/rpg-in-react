@@ -5,7 +5,7 @@ import Lobby from "./pages/lobby/Lobby";
 function App() {
   return (
     <div className="App bg-dark">
-      <Lobby/>
+      <Inscription/>
     </div>
   );
 }
