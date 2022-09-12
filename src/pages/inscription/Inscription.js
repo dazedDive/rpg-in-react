@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/Footer";
 const Inscription = () =>{
 
 
@@ -10,7 +11,9 @@ const Inscription = () =>{
 
             </div>
             <div className="col-0 col-md-4">
+                <span className="d-flex justify-content-center mt-5">
                 <img src="/assets/pieuvre.png"  class="img-fluid " alt="imagesInscription"/>
+                </span>
                 <h2 className="text-center text-white mt-5"></h2>
                 <h2 className="text-center text-white mt-5">Formulaire d'inscription :</h2>
                 
@@ -54,6 +57,7 @@ const Inscription = () =>{
 
             </div>
         </div>
+        <Footer/>
     </div>
     
     )
